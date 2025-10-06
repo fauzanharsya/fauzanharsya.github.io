@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="emerald" class="overflow-x-hidden scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="output.css" />
+  <title>Document</title>
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/150101813?v=4" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/150101813?v=4">
+</head>
+
+<body>
+  <div class="navbar bg-base-100 shadow-sm sticky top-0 z-50">
+    <div class="navbar-start">
+      <span href="#" class="text-lg lg:text-2xl font-bold cursor-default ml-4">Fauzan Portfolio</span>
+    </div>
+
+    <div class="navbar-end hidden lg:flex">
+      <ul class="menu menu-horizontal px-1 font-semibold text-base">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#connect">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-end lg:hidden">
+      <div class="dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul tabindex="0"
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-semibold">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#connect">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero min-h-screen">
+    <div class="hero-content text-center">
+      <div class="max-w-lg p-6 px-4 sm:p-0">
+        <h1 class="text-4xl font-bold sm:text-5xl lg:text-6xl">
+          Hi I'm
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Fauzan</span>
+        </h1>
+        <p class="py-6 text-sm sm:text-lg">
+          I'm a Computer Science student who builds with a user-first mindset. My experience as a mentor has trained me
+          to break down complex technical concepts and collaborate effectively—skills I now apply to building intuitive
+          and maintainable web applications.
+        </p>
+        <p class="pb-8 text-sm sm:text-lg">
+          I am actively seeking an internship where I can contribute to a team that
+          values both clean code and clear communication.
+        </p>
+        <div class="flex justify-center gap-2 flex-wrap">
+          <a target="_blank" rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/11z3V6-CfZfFqyWCKE_6s-iogMWb8-Mis/view?usp=sharing"
+            class="btn btn-primary">Resume / CV</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/fauzanharsya"
+            class="btn btn-outline btn-primary">Github</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/fauzan-harsya"
+            class="btn btn-outline btn-primary">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="max-w-4xl mx-auto px-4 scroll-mt-20" id="projects">
+    <h1
+      class="text-4xl font-bold text-center my-16 text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+      Latest Projects
+    </h1>
+
+    <div class="my-4 card-side bg-base-100 shadow-sm">
+      <figure>
+        <img src="https://github.com/fauzanharsya/YelpCamp/raw/main/screenshots/campgrounds_index_page.png"
+          alt="Album" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title text-sm sm:text-lg">YelpCamp</h2>
+        <p class="text-sm sm:text-base">
+          A full-stack Yelp clone for campsites built with the MEN stack
+          (MongoDB, Express, Node.js). Features maps, reviews, image uploads
+          with Cloudinary, and user authentication.
+        </p>
+        <div class="card-actions justify-end">
+          <a target="_blank" rel="noopener noreferrer" href="https://yelp-camp-pied-omega.vercel.app"
+            class="btn btn-primary">Live Demo</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/fauzanharsya/YelpCamp/"
+            class="btn btn-outline btn-primary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-side bg-base-100 shadow-sm">
+      <figure>
+        <img
+          src="https://github.com/fauzanharsya/glassmorphism-todo-app/blob/main/screenshots/desktop-layout.jpeg?raw=true"
+          alt="Album" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title text-sm sm:text-lg">
+          Simple To-Do List App with Glassmorphism UI
+        </h2>
+        <p class="text-sm sm:text-base">
+          A responsive To-Do List web application with a glassmorphism UI,
+          built with HTML, CSS (with Bulma Framework), and JavaScript. This
+          project is part of my learning journey through Colt Steele's Web
+          Developer Bootcamp, focusing on DOM manipulation and localStorage.
+        </p>
+        <div class="card-actions justify-end">
+          <a target="_blank" rel="noopener noreferrer" href="https://fauzanharsya.github.io/glassmorphism-todo-app/"
+            class="btn btn-primary">Live Demo</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/fauzanharsya/glassmorphism-todo-app"
+            class="btn btn-primary btn-outline">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-center mb-6 mt-8">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/fauzanharsya"
+        class="btn btn-neutral btn-wide">See More Projects on GitHub</a>
+    </div>
+  </section>
+
+  <div class="max-w-4xl mx-auto px-4 my-40 mb-2 scroll-mt-20" id="skills">
+    <h1
+      class="text-4xl font-bold text-center mt-16 mb-12 text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+      Technical Skills
+    </h1>
+
+    <div class="flex tabs tabs-box">
+      <input type="radio" name="my_tabs_1" class="tab flex-1" aria-label="Front End" checked="checked" />
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6 py-8">
+        <div class="flex flex-wrap gap-4 justify-center">
+          <div class="badge badge-lg badge-primary">HTML</div>
+          <div class="badge badge-lg badge-secondary">CSS</div>
+          <div class="badge badge-lg badge-accent">JavaScript</div>
+          <div class="badge badge-lg badge-primary">React</div>
+          <div class="badge badge-lg badge-success">TailwindCSS</div>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs_1" class="tab flex-1" aria-label="Back End" />
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6 py-8">
+        <div class="flex flex-wrap gap-4 justify-center">
+          <div class="badge badge-lg badge-info">MongoDB</div>
+          <div class="badge badge-lg badge-warning">Express.js</div>
+          <div class="badge badge-lg badge-success">Node.js</div>
+        </div>
+      </div>
+
+      <input type="radio" name="my_tabs_1" class="tab flex-1" aria-label="Technologies" />
+      <div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6 py-8">
+        <div class="flex flex-wrap gap-4 justify-center">
+          <div class="flex flex-wrap gap-4 justify-center">
+            <div class="badge badge-lg badge-primary">VSCode</div>
+            <div class="badge badge-lg badge-secondary">GitHub</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="experience" class="max-w-4xl mx-auto p-4 py-8 sm:py-16 lg:px-6 scroll-mt-14">
+    <h2
+      class="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+      Leadership & Experience
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card bg-base-100 shadow-sm">
+        <div class="card-body">
+          <h3 class="card-title">Academic Tutor</h3>
+          <p>
+            Simplified complex topics in Discrete Mathematics, achieving a
+            <strong>96.25% student satisfaction score</strong> by tailoring my
+            teaching approach to individual learning styles.
+          </p>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-sm">
+        <div class="card-body">
+          <h3 class="card-title">Project & Logistics Coordinator</h3>
+          <p>
+            Managed end-to-end logistics for the Recyclub environmental
+            project, coordinating across multiple divisions to ensure smooth
+            and timely execution of a multi-stage program.
+          </p>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-sm">
+        <div class="card-body">
+          <h3 class="card-title">Freshmen Partner</h3>
+          <p>
+            Provided key academic and personal guidance to ease the university
+            transition for new students, developing presentations and
+            providing proactive one-on-one coaching.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center mb-6 mt-8">
+      <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/fauzan-harsya"
+        class="btn btn-neutral btn-wide">See More on LinkedIn</a>
+    </div>
+  </div>
+
+  <div id="connect" class="max-w-4xl mx-auto p-4 py-8 sm:py-16 lg:px-6 scroll-mt-20">
+    <h1
+      class="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+      Lets Connect!
+    </h1>
+    <p class="px-4 lg:px-0 mt-4 text-base mx-auto">
+      My inbox is always open! I'm looking for an opportunity to contribute to
+      a meaningful project and grow alongside an experienced team. Whether you
+      have a specific role in mind or just want to chat about technology, feel
+      free to reach out.
+    </p>
+
+    <div class="flex justify-center gap-1.5 mb-6 mt-4">
+      <a rel="noopener noreferrer" href="mailto:fauzan.harsya@gmail.com" class="btn btn-primary">
+        Email
+      </a>
+      <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/fauzan-harsya" class="btn btn-primary">
+        LinkedIn
+      </a>
+    </div>
+  </div>
+
+  <footer class="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+    <nav class="flex flex-col md:flex-row gap-4">
+
+      <a href="#projects" class="link link-hover">Projects</a>
+      <a href="#skills" class="link link-hover">Skills</a>
+      <a href="#experience" class="link link-hover">Experience</a>
+      <a href="#connect" class="link link-hover">Contact</a>
+    </nav>
+    <nav>
+      <div class="grid grid-flow-col gap-4">
+        <a href="mailto:fauzan.harsya@gmail.com" class="link link-hover">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+        </a>
+
+        <a href="https://linkedin.com/in/fauzan-harsya" target="_blank" rel="noopener noreferrer"
+          class="link link-hover">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+          </svg>
+        </a>
+
+        <a href="https://github.com/fauzanharsya" target="_blank" rel="noopener noreferrer" class="link link-hover">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+      </div>
+    </nav>
+    <aside>
+      <p>
+        Copyright © 2025 - All right reserved. Designed with daisyUI and
+        TailwindCSS
+      </p>
+    </aside>
+  </footer>
+</body>
+
+</html>
